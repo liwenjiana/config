@@ -7,8 +7,8 @@ spring:
     cache: false
   rabbitmq:
     host: 192.168.0.102
-    username: /leyou
-    password: leyou
+    username: leyou
+    password: 123
     virtual-host: /leyou
   redis:
     host: 192.168.0.102
