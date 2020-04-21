@@ -7,7 +7,7 @@ spring:
     name: comments-service
   data:
     mongodb:
-      host: 192.168.0.100
+      host: 192.168.0.101
       database: leyoudb
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/leyou?characterEncoding=UTF-8&useSSL=false
@@ -22,7 +22,7 @@ spring:
     password: 123
     host: 192.168.0.101
   redis:
-    host: 192.168.0.102
+    host: 192.168.0.101
   jackson:
     default-property-inclusion: non_null # 配置json处理时忽略空值
 eureka:
